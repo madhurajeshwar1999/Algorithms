@@ -11,7 +11,6 @@ def best(W, items): # top-down
             return opt[x]
         #print("solving", x)
         for i, (w, v) in enumerate(items):
-            print("I is ",i)
             if x >= w:
                 ans = _best(x-w) + v
                 if ans > opt[x]:
@@ -54,5 +53,5 @@ def best2(W, items): # bottom-up
 if __name__ == "__main__":
 
     print(best(3, [(2, 4), (3, 5)]))
-    print("HI")
+    print("Hi")
     

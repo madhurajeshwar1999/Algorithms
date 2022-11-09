@@ -1,0 +1,9 @@
+n: 4096 base10-digits: 856 time: 0.000468
+n: 8192 base10-digits: 1712 time: 0.001572
+n: 16384 base10-digits: 3424 time: 0.005245
+n: 32768 base10-digits: 6848 time: 0.017311
+n: 65536 base10-digits: 13696 time: 0.063903
+n: 131072 base10-digits: 27393 time: 0.238554
+n: 262144 base10-digits: 54785 time: 0.929804
+n: 524288 base10-digits: 109570 time: 3.672851
+n: 1048576 base10-digits: 219140 time: 14.565167
